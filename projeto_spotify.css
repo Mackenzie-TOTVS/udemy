@@ -1,0 +1,42 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+body{
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background: url(img1/capa.png) no-repeat center top;
+    background-size: cover;
+}
+
+
+.fundinho{
+    background: url(img1/capa.png) no-repeat center top;
+    background-size: cover;
+}
+
+
+.imagem1{
+    background:url(img1/img1.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.imagem2{
+    background:url(img1/img2.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.imagem3{
+    background:url(img1/img3.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.imagem4{
+    background:url(img1/img4.jpg) no-repeat center top;
+    background-size: cover;
+}

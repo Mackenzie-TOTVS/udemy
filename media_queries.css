@@ -1,0 +1,16 @@
+h1{
+    color: violet;
+    
+
+}
+
+@media(max-height:500px ) and (min-width:500px) {
+    body{
+        background-color: red;
+    }
+ } /* dentro do () seja a condição e dentro do {} --> sera o elemto a ser modificado , como assim ? por exemplo 
+
+quando a lagura minima for 800 px faça tal coisa segue o exemplo da sintaxe a baixo 
+
+
+@media (max-width:800px) {}

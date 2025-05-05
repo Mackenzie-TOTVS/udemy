@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap-4/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+        </head>
+
+<body>
+
+    <!--
+    ---------------------------------------------------------------
+
+           =======TABELA ========
+        todas essas classes sao aplicadas no clase <table>
+        
+        table --  ela recebe uma formatação com espaçamento e tudo mais 
+
+        table-bordered -- deixa a tabela quadriculado 
+        
+        table-borderless -- deixa ela sem borda 
+
+        table-sm -- deixa ela em um tamanho pequeno 
+
+    ----------------------------------------------------------------
+        ========= PAGINAÇÃO =======
+
+
+            SEQUENCIA :
+            
+            1-dentro da UL -- pagination
+            2-dentro da LI -- page-item
+            3-dentro da A  -- page-link
+
+            1- pagination
+            2- page-item 
+            3- page-link 
+
+
+
+            Podemos  colocar na tag LI links --  active e  -- disable 
+            
+            active ele fica na cor azul | disable fica desativado 
+
+            ALINHAMENTO :
+
+            justify-content-center  | justify-content-end 
+
+            TAMANHO :
+            
+            Temos pagination-sm e pagination-lg
+ 
+    -->
+    <table class="table">
+        <thead>
+            <tr>
+                 <th>nome</th>
+                 <th>sobre</th>
+                 <th>contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+
+            <tr>
+                    <td>macbook</td>
+                    <td>apple</td>
+                    <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                        <td>macbook</td>
+                        <td>apple</td>
+                        <td>119283929</td>
+             </tr>
+
+        </tbody>
+
+    </table>
+
+
+    <!-- tabela com formatçao table-bordered -->
+
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <table class="table table-bordered text-center"> <!-- deixa ela quadriculada -->
+        <thead>
+            <tr>
+                 <th>nome</th>
+                 <th>sobre</th>
+                 <th>contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+
+            <tr>
+                    <td>macbook</td>
+                    <td>apple</td>
+                    <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                        <td>macbook</td>
+                        <td>apple</td>
+                        <td>119283929</td>
+             </tr>
+
+        </tbody>
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- tabela com formatçao table-borderless -->
+    <table class="table table-borderless">
+        <thead>
+            <tr>
+                 <th>nome</th>
+                 <th>sobre</th>
+                 <th>contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+
+            <tr>
+                    <td>macbook</td>
+                    <td>apple</td>
+                    <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                        <td>macbook</td>
+                        <td>apple</td>
+                        <td>119283929</td>
+             </tr>
+
+        </tbody>
+
+    </table>
+
+
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+
+    <h2>tabela sm </h2>
+    <table class=" table table-sm"><!-- ao utilizar table-sm deixa a tabela pequena -->
+        <thead>
+            <tr>
+                 <th>nome</th>
+                 <th>sobre</th>
+                 <th>contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                <td>macbook</td>
+                <td>apple</td>
+                <td>119283929</td>
+            </tr>
+
+
+
+            <tr>
+                    <td>macbook</td>
+                    <td>apple</td>
+                    <td>119283929</td>
+            </tr>
+
+
+            <tr>
+                        <td>macbook</td>
+                        <td>apple</td>
+                        <td>119283929</td>
+             </tr>
+
+        </tbody>
+
+    </table>
+
+
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+
+    <H3>Fazendo uma paginação </H3>
+    <!--- sequencia a ser seguida pagination , page-item e page-link -->
+    <nav>
+        <ul class="pagination"><!-- utilizado para deixar um item ao lado do outro -->
+            <li class="page-item">
+                <a href="#"  class="page-link">anterior</a>
+            </li>
+
+            <li class="page-item active">
+                <a href="#"  class="page-link">1</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">2</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">3</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">proximo</a>
+            </li>
+            
+        </ul>
+    </nav>
+     
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <H3>Alinhamento -- temos justify-content-center , justify-content-end </H3>
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a href="#"  class="page-link">anterior</a>
+            </li>
+
+            <li class="page-item active">
+                <a href="#"  class="page-link">1</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">2</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">3</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">proximo</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Tamanho de paginaçao </h3>
+    <nav> <!-- Temos o tamanho pagination-sm e pagination-lg-->
+        <ul class="pagination pagination-lg">
+            <li class="page-item">
+                <a href="#"  class="page-link">anterior</a>
+            </li>
+
+            <li class="page-item active">
+                <a href="#"  class="page-link">1</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">2</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">3</a>
+            </li>
+
+            <li class="page-item">
+                <a href="#"  class="page-link">proximo</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head >
+	<link rel="stylesheet" type="text/css" href="">
+	<meta charset="utf-8">
+
+	<meta  name="viewport" content="width=widht-device , initial-scale=1 shirnk-to-fit=no">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+<h3>Barra de progresso</h3>
+
+<!----
+	1-progress -- deixa ele com uma cor cinza e arredondado 
+
+	2-progress-bar -- define a largura 
+
+	depois temos que colocar a medida dessa largura :
+	w-25 ,w-50, w-75 , w-100
+	
+	depois temos que colocar a media da altura 
+
+	h-25 , h-50 , h-75 , h-100
+
+	
+
+	3-progress-bar-striped -- Deixa a barra listrada
+
+
+
+	4-progress-bar-animated -- deixa uma barra animada 
+	--->
+
+	<!---------FORMULA 1 ---------->
+<div class="progress">
+	<div  class="progress-bar w-50 bg-success">50%</div>
+
+</div>
+  <!------------FIM---------------->
+
+
+  <!---------FORMULA 2 ---------->
+  <div class="progress">
+	<div  class="progress-bar disable " style="width:200px">50%</div>
+</div>
+ <!------------FIM--------------->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<!------------ALTURA--------------->
+<div class="progress">
+	<div class="progress-bar h-50 w-100">50%	</div>
+</div>
+<!------------FIM------------------>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<!----------Barra listrada-------------------->
+<div  class="progress">
+	<div class="progress-bar progress-bar-striped w-50 bg-success">	50%</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--- BARRA LISTRADA E ANIMADA --->
+
+<div  class="progress">
+	<div class="progress-bar progress-bar-striped progress-bar-animated w-50 ">	50%</div>
+</div>
+
+<!----------------------->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="progress">
+	<div class="progress-bar progress-bar-striped w-50 bg-success"></div>
+	<div class="progress-bar progress-bar-striped w-25 bg-warning"></div>
+	<div class="progress-bar progress-bar-striped w-25"></div>
+</div>
+
+</body>
+</html>

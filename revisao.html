@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="stylesheet" type="text/css" href="">
+        <meta charset="utf-8">
+        <meta name="viewport" content="widht=widht-device, initial-scale=1 shirnk-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="bootstrap-4/css/bootstrap.min.css">
+
+
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+    </head>
+
+
+    <body>
+
+<!----------------Barra de progresso ------------------->
+        <h1>alerta e barra de progresso</h1>
+
+
+        <div class="progress" >
+            <div class="progress-bar w-50">50</div>
+    
+        </div>
+<br>
+<br>
+<br>
+
+        <div class="progress" style="width: 500px;">
+            <div class="progress-bar w-50 progress-bar-striped">50</div>
+             
+        </div>
+        
+<br>
+<br>
+<br>
+<br>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated w-50 bg-success">50</div>
+        </div>
+
+
+<!---------------------------------------------------------------------------------->
+<br>
+<br>
+<br>
+<br>
+
+<!-----------------Posicionamento de textos--------------------------------------------- -->
+<!--
+    sm- small -        576  px 
+    md- medium -       768  px 
+    lg-large -         992  px 
+    xl- extra large-   1200 px 
+
+    Text-justify - texto fica justificado 
+
+-->
+
+<P class="text-xl-center">texto centralizado a direita </P>
+
+<p class="text-sm-right">texto centralizado a direita </p>
+
+<p class="text-md-center">texto centralizado</p>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-------------------------------------------------------------------------------------------->
+
+
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a href="#" class="nav-link">estilo</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link disable" href="#">home</a>
+    </li>
+
+    <Li class="nav-item">
+        <a class="nav-link active" href="#">sobre</a>
+    </Li>
+</ul>
+
+
+<br>
+<br>
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#">qualquer coisa</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">qualquer coisa</a>
+        </li>
+
+
+        <li class="nav-item">
+            <a class="nav-link active" href="#">qualquer coisa</a>
+        </li>
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">qualquer coisa</a>
+        </li>
+
+        </ul>
+
+
+<br>
+<br>
+<br>
+<br>
+
+<!--------------------------BOTOES----------------------------------------------------->
+
+
+        <button class="btn">butao</button> <!-- classe padrao-->
+        <a class="btn btn-success" href="#">titulo</a>
+
+        <input type="button" value="enviar" class="btn" >
+
+        <br>
+        <br>
+        <button class="btn btn-outline-dark"> botao </button>
+        <hr>
+        <button class="btn btn-outline-dark btn-lg">qualquer</button>
+
+        <button class="btn btn-outline-dark btn-sm">qualquer</button>
+<hr>
+<br>
+<br>
+<br>
+
+        <button class="btn disabled">qualquer</button>
+        <button class="btn btn-outline-primary  disabled">qualquer</button>
+
+
+        <hr>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="btn-group ">
+            <button>qualquer</button>
+            <button>qualquer</button>
+            <button class="btn btn-outline-primary active">qualquer</button>
+
+        </div>
+
+        <hr>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+        <div class="btn-group-vertical">
+
+            <button class="btn btn-outline-primary btn-lg ">qualquer</button>
+            <button class="btn btn-outline-primary btn-lg">qualquer</button>
+
+        </div>
+
+<!--------------------------------------------------------------------------->
+
+
+<!----------------------------CARDS---------------------------------------------->
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="card w-50"> 
+    <div class="card-body">
+        <h1>qualquer coisa</h1>
+        <p>qualquer coisa que seja qualquer coisa erm cima de  qualquer coisa </p>
+    </div>
+</div>
+
+<BR>
+<BR>
+<BR>
+
+
+<!-------------------------------------------------------------------------------------->
+
+       
+       <br><br><br><br>
+       <br><br><br><br>
+       <br><br><br><br>
+       <br><br><br><br>
+
+
+<!-------------------- elementos flutuantes ------------------------------------------->
+
+
+<div style="background: yellow; width: 500px; height: 250px;" class="clearfix">
+
+    <div class="float-right" style="width: 100px; height: 100px; background: red;">
+
+        </div>
+    <div class="float-lefth" style="width: 100px; height: 100px; background: red;">
+
+        </div>
+
+</div>
+
+
+
+
+<!-----------------------------Formulario----------------------------------------------------------->
+
+       
+       <br><br><br><br>
+       <br><br><br><br>
+       <br><br><br><br>
+
+
+<form>
+    <div>
+        <label for="enviar">enviar</label>
+        <input type="text" id="enviar" class="form-control">
+    </div>
+
+       <br><br><br><br>
+       <br><br><br><br>
+       <br><br><br><br>
+
+        <select id="estados" class="form-control-sm w-50">
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapa</option>
+            <option>...</option>
+            
+        </select>
+
+
+          <select id="estados" class="form-control-lg w-50">
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapa</option>
+            <option>...</option>
+            
+        </select>
+
+
+
+       <br><br><br><br>
+       <br><br><br><br>
+       <br><br><br><br>
+
+       <label>nome</label>
+       <input type="text" class="form-control  is-valid" name="nome">
+       <label>nome</label>
+       <input type="text" class="form-control  is-invalid" name="nome">
+
+
+
+
+       <br><br><br><br>
+       <br><br><br><br>
+       <br><br><br><br>
+
+
+
+</form>
+
+
+<!--------------------------input_group------------------------------------------------------------>
+
+    
+    <div class="input-group">
+            <span class="input-group-text  input-group-prepend">@</span>
+
+            <input type="text" class="form-control  w-50" placeholder="digite seu nome">
+    </div>
+
+
+
+
+    <div class="input-group">
+
+        <H1 class="input-group-text input-group-prepend">#</H1>
+
+        <input type="text" name=" name" class="form-control">            
+        </div>
+
+        
+    </div>
+
+
+
+
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+
+
+
+<!----------------------Lista------------------------------------------------------------------------->
+
+
+<ul class="list-group w-50 m-5">
+
+    <li class="list-group-item active">qualquer coisa em cima de qualquer coisa</li>
+    <li class="list-group-item">qualquer coisa em cima de qualquer coisa</li>
+    <li class="list-group-item ">qualquer coisa em cima de qualquer coisa</li>
+    <li class="list-group-item ">qualquer coisa em cima de qualquer coisa</li>
+    <li class="list-group-item active">qualquer coisa em cima de qualquer coisa</li>
+</ul>
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+
+<ul class="list-group list-group-flush w-50">
+
+    <li class="list-group-item">qualquer coisa </li>
+    <li class="list-group-item"> qualquer coisa </li>
+    <li class="list-group-item"> qualquer coisa</li>
+
+</ul>
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+
+
+<ul class="list-group list-group-flush">
+
+
+    <a href="#" class="list-group-item">qualquer coisa</a>
+    <a href="#" class="list-group-item">qualquer coisa</a>
+    <a href="#" class="list-group-item">qualquer coisa</a>
+    <a href="#" class="list-group-item">qualquer coisa</a>
+    
+</ul>
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+
+
+<!--------------------------------------------------------------------------------------------------------->
+
+
+
+<!----------------------Brincadeira , testando e aprendendo ----------------------------------------------->
+
+
+
+<div class="card w-50 m-5">
+
+    <div class="card-body">
+
+        <div class="input-group">
+            <h1 class="input-group-text input-group-prepend">www.</h1>
+            <input type="text" name="enviar" class="form-control">
+            <h1 class="input-group-text input-group-append ">..com</h1>
+
+         </div>
+
+     </div>
+
+
+</div>
+
+
+
+<div class="card w-50 m-5">
+    <div class="card-body ">
+
+<div class="container">
+    <div class="row ">
+
+        <div class="col-10 ">
+
+            <div class="progress mt-2">
+                <div class="progress-bar w-50 bg-success  progress-bar-striped progress-bar-animated ">50%
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2" >
+           <button class="btn btn-sm btn-outline active" style="color: white; background:green;">enviar</button>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div>
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#">1</a>
+        </li>
+
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">2</a>
+        </li>
+
+
+
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">3</a>
+        </li>
+
+
+
+        <li class="nav-item">
+            <a class="nav-link active" href="#">4</a>
+        </li>
+
+
+
+    </ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----criando uma lista ---->
+
+
+<ul class="list-group list-group-flush m-5">
+    <li class="list-group-item">qualquer</li>
+</ul>
+
+
+
+
+
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
+
+
+
+    </body>
+</html>

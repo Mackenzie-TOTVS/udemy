@@ -1,0 +1,15 @@
+/*
+sm --> small  >=  576px 
+md --> medium >=  768px 
+lg --> large  >=  992px
+xl --> extra large >= 1200px
+
+
+sintaxe -->
+class=" text-<tela>-<alinhamento>    so substituir de acordo com a sintaxe 
+        tela:sm,md,lg,xg
+        alinhamento:left , center , right"
+
+        */
+
+        
